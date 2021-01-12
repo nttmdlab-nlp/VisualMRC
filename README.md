@@ -1,5 +1,5 @@
 # VisualMRC
-VisualMRC is a visual generative machine reading comprehension dataset that proposes a task: given a question and a document image, the model produce an abstractive answer.
+VisualMRC is a visual machine reading comprehension dataset that proposes a task: given a question and a document image, a model produces an abstractive answer.
 
 You can find more details, analyses, and baseline results in our paper. You can cite it as follows:
 <pre>
@@ -14,7 +14,7 @@ Paper Link
 - 151.46 average OCR tokens (tokenizing with NLTK tokenizer)
 
 # Installation
-This repository provides pre-processing code and annotations (QA pairs, OCR and ROI annoation). OCR outputs for each image are provided using using Tesseract OCR system. Due to the licence issue, it is not possible to distribute document images in this repository. If you want to use the document images, please contact me at ryouta.tanaka.rg@hco.ntt.co.jp. 
+This repository provides pre-processing code and annotations (QA pairs, OCR and ROI annoation). OCR outputs for each image are provided using Tesseract OCR system. Due to the licence issue, it is not possible to distribute document images in this repository. If you want to use the document images, please contact me at ryouta.tanaka.rg@hco.ntt.co.jp. 
 
 Clone this repository and get the document images, and then build it with the following command. 
 <pre>
