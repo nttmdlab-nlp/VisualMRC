@@ -13,14 +13,8 @@ Paper Link
 - 9.53 average answer tokens (tokenizing wit NLTK tokenizer) 
 - 151.46 average OCR tokens (tokenizing with NLTK tokenizer)
 
-# Installation
-This repository provides pre-processing code and annotations (QA pairs, OCR and ROI annoation). OCR outputs for each image are provided using Tesseract OCR system. Due to the licence issue, it is not possible to distribute document images in this repository. If you want to use the document images, please contact me at ryouta.tanaka.rg@hco.ntt.co.jp. 
-
-Clone this repository and get the document images, and then build it with the following command. 
-<pre>
-bash create_dataset.sh
-</pre>
-After pre-processing, you can obtain train.json, val.json, and test.json (we split based on URL domain)
+# Get Started
+If you want to use the dataset, please contact me at ryouta.tanaka.rg@hco.ntt.co.jp. 
 
 ## Dataset Format
 <pre>
@@ -70,6 +64,5 @@ qa_data:[
 </pre>
 
 
-## License
 
 
