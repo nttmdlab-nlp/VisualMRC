@@ -24,35 +24,48 @@ After pre-processing, you can obtain train.json, val.json, and test.json (we spl
 
 ## Dataset Format
 <pre>
-id: "image id"
-license: "license name"
-url: "URL"
-screenshot_filename: "screenshot file name"
-image_filename: "image file name"
+id: "image id",
+license: "license name",
+url: "URL"m
+screenshot_filename: "screenshot file name",
+image_filename: "image file name",
 bounding_boxes: [
   {
-  id: "bounding box id"
-  structure: "semantic class of the bounding box"
+  id: "bounding box id",
+  structure: "semantic class of the bounding box",
   shape:
     {
-      x: "INT, top left x coordinate of the bounding box"
-      y: "INT, top left y coordinate of the bounding box "
-      width: "INT, Width of the ROI bounding box"
-      height: "INT, Height of the bounding box"
+      x: "INT, top left x coordinate of the bounding box",
+      y: "INT, top left y coordinate of the bounding box ",
+      width: "INT, Width of the ROI bounding box",
+      height: "INT, Height of the bounding box",
     }
   ocr_info: [
     {
-      word: "OCR token"
-      confidence: "Confiden score produced by tesseract"
+      word: "OCR token",
+      confidence: "Confiden score produced by tesseract",
       bbox: 
         {
-          x: "INT, top left x coordinate of the OCR bounding box"
-          y: "INT, top left y coordinate of the OCR bounding box "
-          width: "INT, Width of the OCR bounding box"
-          height: "INT, Height of the OCR bounding box"
+          x: "INT, top left x coordinate of the OCR bounding box",
+          y: "INT, top left y coordinate of the OCR bounding box ",
+          width: "INT, Width of the OCR bounding box",
+          height: "INT, Height of the OCR bounding box",
         }
     }
   ]
+]
+qa_data:[
+  {
+  question:
+    {
+    text: "question"
+    }
+   answer:
+    {
+    text: "answer",
+    relevant: ["Relevant bounding boxes that needs to answer the question"]
+    }
+  }
 ]
 </pre>
 
