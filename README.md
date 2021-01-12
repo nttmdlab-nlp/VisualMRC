@@ -26,7 +26,7 @@ After pre-processing, you can obtain train.json, val.json, and test.json (we spl
 <pre>
 id: "image id",
 license: "license name",
-url: "URL"m
+url: "URL",
 screenshot_filename: "screenshot file name",
 image_filename: "image file name",
 bounding_boxes: [
@@ -63,7 +63,7 @@ qa_data:[
    answer:
     {
     text: "answer",
-    relevant: ["Relevant bounding boxes that needs to answer the question"]
+    relevant: ["relevant bounding boxes that needs to answer the question"]
     }
   }
 ]
