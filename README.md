@@ -9,9 +9,9 @@ Paper Link
 # Statistics
 - 10,197 images
 - 30,562 QA pairs
-- 10.53 average question tokens (NLTK tokenizer)
-- 9.53 average answer tokens (NLTK tokenizer) 
-- 151.46 average OCR tokens (NLTK tokenizer)
+- 10.53 average question tokens (tokenizing with NLTK tokenizer)
+- 9.53 average answer tokens (tokenizing withNLTK tokenizer) 
+- 151.46 average OCR tokens (tokenizing with NLTK tokenizer)
 
 # Installation
 This repository provides pre-processing code and annotations (QA pairs, OCR and ROI annoation). OCR outputs for each image are provided using using Tesseract OCR system. Due to the licence issue, it is not possible to distribute document images in this repository. If you want to use the document images, please contact me at ryouta.tanaka.rg@hco.ntt.co.jp. 
