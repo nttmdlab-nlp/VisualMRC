@@ -1,5 +1,5 @@
 # VisualMRC
-VisualMRC is a visual generative machine reading comprehension dataset that proposes a task: given a question and a document images, the model produce an abstractive answer.
+VisualMRC is a visual generative machine reading comprehension dataset that proposes a task: given a question and a document image, the model produce an abstractive answer.
 
 You can find more details, analyses, and baseline results in our paper. You can cite it as follows:
 <pre>
