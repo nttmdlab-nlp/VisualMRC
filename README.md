@@ -10,7 +10,7 @@ Paper Link
 - 10,197 images
 - 30,562 QA pairs
 - 10.53 average question tokens (tokenizing with NLTK tokenizer)
-- 9.53 average answer tokens (tokenizing withNLTK tokenizer) 
+- 9.53 average answer tokens (tokenizing wit NLTK tokenizer) 
 - 151.46 average OCR tokens (tokenizing with NLTK tokenizer)
 
 # Installation
