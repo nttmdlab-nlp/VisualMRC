@@ -44,19 +44,20 @@ bounding_boxes: [
           width: "INT, Width of the OCR bounding box",
           height: "INT, Height of the OCR bounding box",
         }
-    }
-  ]
+     }
+   ]
+  }
 ]
 qa_data:[
   {
   question:
     {
-    text: "question"
+      text: "question"
     }
    answer:
     {
-    text: "answer",
-    relevant: ["relevant bounding boxes that needs to answer the question"]
+      text: "answer",
+      relevant: ["relevant bounding boxes that needs to answer the question"]
     }
   }
 ]
