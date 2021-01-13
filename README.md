@@ -19,7 +19,6 @@ If you want to use the dataset, please contact me at ryouta.tanaka.rg@hco.ntt.co
 ## Dataset Format
 <pre>
 id: "image id",
-license: "license name",
 url: "URL",
 screenshot_filename: "screenshot file name",
 image_filename: "image file name",
