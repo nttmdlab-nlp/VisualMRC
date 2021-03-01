@@ -23,6 +23,7 @@ You can find more details, analyses, and baseline results in our [paper](http://
 
 # Get Started
 If you want to use the dataset, please contact me at ryouta.tanaka.rg@hco.ntt.co.jp. 
+Please let us know your institution, name, and purpose.
 
 ## Dataset Format
 <pre>
@@ -36,8 +37,8 @@ bounding_boxes: [
   structure: "semantic class of the bounding box",
   shape:
     {
-      x: "INT, top left x coordinate of the bounding box",
-      y: "INT, top left y coordinate of the bounding box ",
+      x: "INT, Top left x coordinate of the bounding box",
+      y: "INT, Top left y coordinate of the bounding box ",
       width: "INT, Width of the ROI bounding box",
       height: "INT, Height of the bounding box",
     }
@@ -47,8 +48,8 @@ bounding_boxes: [
       confidence: "Confiden score produced by tesseract",
       bbox: 
         {
-          x: "INT, top left x coordinate of the OCR bounding box",
-          y: "INT, top left y coordinate of the OCR bounding box ",
+          x: "INT, Top left x coordinate of the OCR bounding box",
+          y: "INT, Top left y coordinate of the OCR bounding box ",
           width: "INT, Width of the OCR bounding box",
           height: "INT, Height of the OCR bounding box",
         }
@@ -65,7 +66,7 @@ qa_data:[
    answer:
     {
       text: "answer",
-      relevant: ["relevant bounding boxes that needs to answer the question"]
+      relevant: ["relevant bounding boxes that need to answer the question"]
     }
   }
 ]
