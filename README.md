@@ -24,7 +24,7 @@ You can find more details, analyses, and baseline results in our [paper](http://
 - 151.46 average OCR tokens (tokenizing with NLTK tokenizer)
 
 # Get Started
-If you want to use the dataset, please contact me at ryouta.tanaka.rg@hco.ntt.co.jp. 
+If you want to use the dataset including ground-truth annotations, please contact me at ryouta.tanaka.rg@hco.ntt.co.jp. 
 Please let us know your institution, name, and purpose.
 
 ## Dataset Format
