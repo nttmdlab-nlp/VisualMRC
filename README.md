@@ -17,10 +17,10 @@ You can find more details, analyses, and baseline results in our [paper](http://
 </pre>
 
 # 📢 News
-- [2025.03.27] Our VisualMRC dataset is available on 🤗[HuggingFace](https://huggingface.co/datasets/NTT-hil-insight/visualmrc).
+- [2025.03.27] Our VisualMRC dataset is available on 🤗[HuggingFace](https://huggingface.co/datasets/NTT-hil-insight/VisualMRC).
 
 # Download
-- 🤗[VisualMRC](https://huggingface.co/datasets/NTT-hil-insight/visualmrc)
+- 🤗[VisualMRC](https://huggingface.co/datasets/NTT-hil-insight/VisualMRC)
 
 # Statistics
 - 10,197 images
